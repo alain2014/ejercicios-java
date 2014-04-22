@@ -17,17 +17,24 @@ public class Ej15_01 {
 		Scanner entrada = new Scanner(System.in);
 		int numero = entrada.nextInt();
 
+		int contador = 0;
+		
 		if (numero == x) {
 			System.out.println("Has acertado a la primera!!!");
 		} else {
-
+			++ contador; //Intentos = 1
 			do {
+				++ contador;
 				System.out.println("Vuelve a intentarlo: ");
 				Scanner entrada2 = new Scanner(System.in);
 				numero = entrada2.nextInt();
-			} while (numero != x);
+			} while (numero != x && contador < 5);
 
-			System.out.println("Has acertado pero no a la primera");
+			if (contador == 5) {
+				System.out.println("Lo sentimos, no has acertado en los 5 intentos que ten’as");				
+			} else {
+				System.out.println("Has acertado pero no a la primera, has acertado en el intento nœmero " + contador);				
+			}
 		}
 	}
 
