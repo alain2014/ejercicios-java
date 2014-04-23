@@ -26,7 +26,6 @@ public class Ej16_01 {
 		int maximo = mi_array[9];
 		
 		System.out.println("M’nimo: " + minimo + " , M‡ximo: " + maximo);
-		
 	}
 
 }
