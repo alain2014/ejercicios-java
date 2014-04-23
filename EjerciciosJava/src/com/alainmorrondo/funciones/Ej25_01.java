@@ -22,3 +22,6 @@ public class Ej25_01 {
 //void sumar(Complejo b)
 //void imprimir toString
 //y construir una clase PruebaComplejo que contenga un método principal que trabaje con instancias de la clase Complejo.
+
+
+

@@ -66,7 +66,6 @@ public class Complejo {
 		} else {
 			return false;
 		}
-
 	}
 	
 	public Complejo imprimir() {
